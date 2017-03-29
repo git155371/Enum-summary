@@ -49,7 +49,6 @@ public class EnumWeek extends java.lang.Enum{
 
 因为继承自java.lang.Enum  ,  
 EnumWeek.MON 提前 实现了  Enum(name,ordinal) 构造方法，
-
 name是字符串MON, ordinal为从0到n的int数字。
 
 
