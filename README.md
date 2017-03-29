@@ -18,11 +18,15 @@ public enum EnumWeek {
 		@override
 		public void ifCan(){...}
 	};
+	
 	EnumWeek(int ,String){...}
 	
 	
-	private int n;private String info;
-	public int getN(){...};public String getInfo(){...};
+	private int n;
+	private String info;
+	public int getN(){...};
+	
+	public String getInfo(){...};
 	public void ifCan(){...}
 	
 	public String toString(){...}//Enum的toString方法主要返回对象的name，但可以覆盖重写。
